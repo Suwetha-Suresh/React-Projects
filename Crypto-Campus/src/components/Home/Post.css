@@ -1,0 +1,55 @@
+.post {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post__image {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.post__likes {
+  display: flex;
+  align-items: center;
+}
+
+.post__likeIcon {
+  color: #262626;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.post__liked {
+  color: #ed4956;
+}
+
+.post__description {
+  margin-left: 10px;
+}
+
+.post__description p {
+  margin: 0;
+}

@@ -1,0 +1,52 @@
+.main-div {
+  background-color: #0c0c0c;
+  background-image: url("https://e0.pxfuel.com/wallpapers/269/112/desktop-wallpaper-of-empty-anime-classroom-background.jpg");
+  margin-top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+
+.head {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.Parent {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.child1 {
+  width: 35%;
+  padding-top: 20px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  border: 2px solid rgb(124, 119, 119);
+  border-radius: 5px;
+}
+
+.child2 {
+  width: 65%;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 100px;
+  border: 2px solid rgb(124, 119, 119);
+  border-radius: 5px;
+}
+
+.child1:hover,
+.child2:hover {
+  box-shadow: 4px 4px #88888895;
+}
+.he {
+  margin-top: 0%;
+}
